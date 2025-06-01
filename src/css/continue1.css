@@ -1,0 +1,55 @@
+.continue-section {
+    padding-top: 24px;
+    padding-bottom: 6px;
+}
+
+.container {}
+
+.continue-link {
+        font-weight: 600;
+        line-height: 1.55;
+        text-align: right;
+        display: block;
+        color: #329da9;
+}
+
+.continue-img {}
+
+.continue-title {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 1.5;
+        margin-left: auto;margin-right: auto;
+        color: #0d0d12;
+            width: 294px;
+            text-align: center;
+            margin-bottom: 16px;
+}
+
+.continue-text {
+        line-height: 1.55;
+        text-align: center;
+        color: #666d80;
+        margin-bottom: 32px;
+}
+
+.continue-slide-img {
+    margin: 0 auto;
+    margin-bottom: 64px;
+}
+
+.continue-btn {
+    border-radius: 100px;
+        max-width: 327px;
+        height: 52px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 1px 2px 0 rgba(13, 13, 18, 0.06);
+            background: #329da9;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 1.55;
+                text-align: center;
+                color: #fff;
+}
