@@ -1,0 +1,20 @@
+.adoption-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.adoption-subtitle {
+    font-family: "Inter Tight", sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.4;
+        color: #0d0d12;
+        margin-bottom: 8px;
+}
+
+.adoption-text {
+    font-family: "Inter Tight", sans-serif;
+        line-height: 1.55;
+        color: #666d80;
+}
