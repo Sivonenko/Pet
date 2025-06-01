@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet Adoption</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
+    <main>
+      <section class="profile-section">
+        <div class="container">
+          <div class="profile-nav">
+            <a href="" class="profile-link-back">
+              <svg class="profile-back-icon" width="25" height="24">
+                <use
+                  href="./img/profile/profile-icon.svg#icon-arrow-left"
+                ></use>
+              </svg>
+            </a>
+            <h1 class="profile-title">Profile</h1>
+            <ul class="profile-nav-icon-list">
+              <li>
+                <button class="profile-nav-btn">
+                  <svg class="profile-nav-btn-icon" width="25" height="24">
+                    <use href="./img/profile/profile-icon.svg#icon-plus"></use>
+                  </svg>
+                </button>
+              </li>
+              <li>
+                <button class="profile-nav-btn">
+                  <img
+                    src="./img/profile/settings.jpg"
+                    alt="settings"
+                    width="25"
+                    height="24"
+                  />
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div class="profile-user-wrap">
+            <img
+              src="./img/profile/user.png"
+              alt="user"
+              width="64"
+              class="profile-user-img"
+            />
+            <div class="profile-user-info">
+              <h2 class="profile-subtitle">Dianne Russell</h2>
+              <ul class="profile-user-list">
+                <li class="profile-user-item">
+                  <p class="profile-user-fem">Gender</p>
+                  <p class="profile-user-set">Value</p>
+                </li>
+                <li class="profile-user-item">
+                  <p class="profile-user-fem">Age</p>
+                  <p class="profile-user-set">Adult</p>
+                </li>
+                <li class="profile-user-item">
+                  <p class="profile-user-fem">Size</p>
+                  <p class="profile-user-set">Medium</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="profile-follow-wrap">
+            <img src="./img/profile/message.png" alt="message" width="48" />
+            <button type="button" class="profile-follow-btn">Follow</button>
+          </div>
+          <ul class="profile-link-list">
+            <li>
+              <a href="./profile-post.html" class="profile-link">Posts</a>
+            </li>
+            <li>
+              <a href="./profile-pets.html" class="profile-link">Pets</a>
+            </li>
+            <li>
+              <a
+                href="./profile-policy.html"
+                class="profile-link profile-link-current"
+                >Adoption Policy</a
+              >
+            </li>
+          </ul>
+          <ul class="adoption-list">
+            <li>
+              <h3 class="adoption-subtitle">About Abyssinian</h3>
+              <p class="adoption-text">
+                Abyssinian cats are active, curious, and affectionate. They love
+                to climb, explore, and spend time with their humans. With their
+                short, ticked coats and bright eyes, they’re one of the most
+                elegant cat breeds.
+              </p>
+            </li>
+            <li>
+              <h3 class="adoption-subtitle">Adoption Information</h3>
+              <p class="adoption-text">
+                We aim to find loving and permanent homes for all our animals.
+                To adopt, please make sure you can provide a safe and caring
+                environment. Home visits may be part of the adoption process.
+              </p>
+            </li>
+            <li>
+              <h3 class="adoption-subtitle">Pet Care Tips</h3>
+              <p class="adoption-text">
+                Taking care of your pet means more than just food and shelter.
+                Spend time playing, grooming, and bonding with them daily.
+                Regular vet visits and lots of love go a long way in keeping
+                your pet healthy and happy.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

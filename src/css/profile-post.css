@@ -1,0 +1,195 @@
+.profile-section {
+  padding-top: 16px;
+}
+
+.profile-nav {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.profile-link-back {
+  margin-right: 116px;
+  display: block;
+}
+
+.profile-back-icon {
+  stroke-width: 2px;
+  stroke: #0d0d12;
+}
+
+.profile-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.55;
+  text-align: center;
+  color: #0d0d12;
+}
+
+.profile-nav-icon-list {
+  display: flex;
+  gap: 16px;
+  margin-left: auto;
+}
+
+.profile-nav-btn {
+  border: none;
+  background-color: transparent;
+}
+
+.profile-nav-btn-icon {
+  stroke-width: 2px;
+  stroke: #0d0d12;
+}
+
+.profile-user-wrap {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.profile-user-img {
+}
+
+.profile-user-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.profile-subtitle {
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #0d0d12;
+}
+
+.profile-user-list {
+  display: flex;
+  gap: 8px;
+}
+
+.profile-user-item {
+  border-radius: 12px;
+  width: 76px;
+  height: 63px;
+  padding: 8px;
+  background: #f8f8f8;
+}
+
+.profile-user-fem {
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.55;
+  color: #666d80;
+  margin-bottom: 2px;
+}
+
+.profile-user-set {
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #0d0d12;
+}
+
+.profile-follow-wrap {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.profile-follow-btn {
+  border-radius: 100px;
+  width: 263px;
+  height: 48px;
+  box-shadow: 0 1px 2px 0 rgba(13, 13, 18, 0.06);
+  background: #329da9;
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.55;
+  text-align: center;
+  color: #fff;
+}
+
+.profile-link-list {
+  display: flex;
+  gap: 1px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #eceff3;
+}
+
+.profile-link {
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 500;
+  line-height: 1.55;
+  text-align: center;
+  color: #0d0d12;
+  width: 108px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-link-current{
+    position: relative;
+}
+.profile-link-current::after{
+    content: "";
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #329da9;
+    left: 0;
+    bottom: 0;
+}
+
+.animals-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.animals-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 16px;
+}
+
+
+.animals-user-wrap {
+    display: flex;
+    gap: 8px;
+}
+
+.animals-name {
+  
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.55;
+        color: #0d0d12;
+}
+.user-location-wrap {
+    display: flex;
+    gap: 4px;
+}
+
+.user-location-text {
+    font-family: "Inter Tight", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.55;
+        color: #666d80;
+}
+
+.user-action-list {
+    display: flex;
+    gap: 16px;
+}
+
+
