@@ -1,0 +1,66 @@
+.massege {
+    padding-top: 16px;
+    padding-bottom: 14px;
+}
+
+.massege-title {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.4;
+        color: #0d0d12;
+        margin-bottom: 22px;
+}
+
+.massege-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.massege-item {
+    padding: 18px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.massege-img {}
+
+.massege-text-wrap {
+}
+
+.massege-name-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.massege-subtitle {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+        color: #0d0d12;
+}
+
+.massege-time {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 1.55;
+        color: #666d80;
+}
+
+.massege-text-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.massege-text {
+        line-height: 1.55;
+        color: #666d80;
+        font-size: 13px;
+}
+
+.massege-num {
+    margin-left: 16px;
+}

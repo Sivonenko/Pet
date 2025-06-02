@@ -108,7 +108,10 @@ margin-bottom: 20px;
     stroke: #329da9;
 }
 
-.market-user-inner {}
+.market-img-wrap{
+    display: flex;
+    justify-content: space-between;
+}
 
 .market-user-subtitle {
         font-weight: 600;
