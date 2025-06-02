@@ -1,0 +1,14 @@
+.saved {
+    padding-top: 16px;
+}
+.saved-title {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.4;
+        color: #0d0d12;
+        margin-bottom: 18px;
+}
+.saved-search-list{
+    justify-content: center;
+    margin-bottom: 28px;
+}
